@@ -1,4 +1,4 @@
-23071343195856972
+23073075847462763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104,6 +104,13 @@ connector Molex KK-254 vertical
 0
 4
 4
+BajaKICAD
+QFP50P900X900X160-48N
+LQFP 48 7x7x1.4  mm
+Integrated Circuit
+0
+48
+48
 BajaKICAD
 SD-CARD-GENERIC
 

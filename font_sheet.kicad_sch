@@ -1468,7 +1468,7 @@
 	)
 	(rectangle
 		(start 83.566 55.626)
-		(end 143.256 119.38)
+		(end 222.25 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -1477,18 +1477,6 @@
 			(type none)
 		)
 		(uuid 6c7aedcc-60ee-49bf-875e-9f931824c640)
-	)
-	(rectangle
-		(start 146.558 55.372)
-		(end 225.806 119.38)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid dffdb6f7-44c0-4023-8b10-04bd91f69604)
 	)
 	(text "Fonte 3V3 (LDO)"
 		(exclude_from_sim no)
@@ -1514,7 +1502,7 @@
 	)
 	(text "Nota:\nCapacitor \"bulky\" de desacoplamento \né da entrada, o da saída já tem na fonte de 3v3"
 		(exclude_from_sim no)
-		(at 86.614 115.316 0)
+		(at 85.09 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1522,6 +1510,17 @@
 			(justify left)
 		)
 		(uuid "84cdc174-66fb-4f50-90b3-cae25165e8a8")
+	)
+	(text "Nota:\nCapacitor 22uF recomendado pelo datasheet"
+		(exclude_from_sim no)
+		(at 99.568 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6adc57f-cc45-4a1c-b27c-79844d85554a")
 	)
 	(text "LED da fonte"
 		(exclude_from_sim no)
@@ -1897,7 +1896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 105.41 90.1699 0)
 			(effects
 				(font
@@ -2037,7 +2036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 186.69 92.7099 0)
 			(effects
 				(font
@@ -2446,7 +2445,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 157.48 92.7099 0)
 			(effects
 				(font

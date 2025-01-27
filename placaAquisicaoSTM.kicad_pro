@@ -178,7 +178,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.35
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -433,7 +434,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -662,10 +663,6 @@
     [
       "d3045f9e-423e-4300-abb0-f6b40a49bc1b",
       "Portas Analogicas e Digitais"
-    ],
-    [
-      "8f1fbfab-5dae-4bc2-87a8-510ceb23b28a",
-      "Fonte"
     ],
     [
       "1827d372-40c6-48fc-bb60-6298c97c0de2",

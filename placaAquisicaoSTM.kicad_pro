@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.3324,
-          "height": 6.499,
-          "width": 6.499
+          "drill": 0.8,
+          "height": 1.44,
+          "width": 1.44
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -130,7 +130,7 @@
         "min_through_hole_diameter": 0.4,
         "min_track_width": 0.25,
         "min_via_annular_width": 0.25,
-        "min_via_diameter": 0.65,
+        "min_via_diameter": 0.9,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -603,6 +603,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],

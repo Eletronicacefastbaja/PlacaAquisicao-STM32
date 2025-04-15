@@ -1,4 +1,4 @@
-24697903047137217
+24745745255181965
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -49,6 +49,13 @@ ESP32-WROOM-32D-NO-HOLES
 48
 39
 Baja_Library
+INA219
+
+
+0
+8
+8
+Baja_Library
 JumperPotencia
 SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
 net tie solder jumper bridged
@@ -63,7 +70,7 @@ Jumper_Potencia
 0
 0
 Baja_Library
-LED_1210_HandSoldering
+LED_3528_HandSoldering
 LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED handsolder
 0

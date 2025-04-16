@@ -2712,151 +2712,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -3523,12 +3378,6 @@
 		(uuid "6e04ee0d-193b-41bf-914e-4b6130e12109")
 	)
 	(junction
-		(at 176.53 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82765413-a8cf-4b74-84ab-4f237b89c540")
-	)
-	(junction
 		(at 227.33 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3545,12 +3394,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0622c4-1d33-48f3-8dc2-c1ec10b7a513")
-	)
-	(junction
-		(at 176.53 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3c474f2-724a-47e9-b574-0729921fceb8")
 	)
 	(junction
 		(at 52.07 158.75)
@@ -3650,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 53.34) (xy 176.53 52.07)
+			(xy 176.53 49.53) (xy 176.53 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3677,16 +3520,6 @@
 			(type default)
 		)
 		(uuid "1ed5e384-9d67-4659-8d23-c291ba0130f8")
-	)
-	(wire
-		(pts
-			(xy 176.53 40.64) (xy 191.77 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1efc29cb-8968-4ae2-82a3-68a3efa2836c")
 	)
 	(wire
 		(pts
@@ -3737,16 +3570,6 @@
 			(type default)
 		)
 		(uuid "2d4c2e31-f61a-4504-85c0-3b0419a1b0a5")
-	)
-	(wire
-		(pts
-			(xy 176.53 53.34) (xy 191.77 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e211278-0a07-4d28-80e0-76bebe261664")
 	)
 	(wire
 		(pts
@@ -3807,16 +3630,6 @@
 			(type default)
 		)
 		(uuid "3c8fe5b5-fc6c-4435-9a0f-5ff6ccdff365")
-	)
-	(wire
-		(pts
-			(xy 176.53 53.34) (xy 176.53 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d76e887-35c1-4ba3-a299-2f2ffab15b9b")
 	)
 	(wire
 		(pts
@@ -3920,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 43.18) (xy 191.77 40.64)
+			(xy 176.53 41.91) (xy 176.53 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4450,16 +4263,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 53.34) (xy 191.77 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6cf460e-d39a-4c4a-9746-693547a4e87b")
-	)
-	(wire
-		(pts
 			(xy 251.46 100.33) (xy 255.27 100.33)
 		)
 		(stroke
@@ -4527,16 +4330,6 @@
 			(type default)
 		)
 		(uuid "ddef1d22-631b-4873-9314-10d08d5285b7")
-	)
-	(wire
-		(pts
-			(xy 176.53 40.64) (xy 176.53 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e41a5b9b-3ca4-4a7e-b83c-45387a08b124")
 	)
 	(wire
 		(pts
@@ -7745,76 +7538,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 176.53 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be96229e-785e-47f9-b667-e9be7459e2c1")
-		(property "Reference" "SW2"
-			(at 177.8 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 177.8 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
-			(at 171.45 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 176.53 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8e6f611-e175-44bc-bfcd-8726bf9136a3")
-		)
-		(pin "2"
-			(uuid "5db69f59-3961-4c74-8be4-6e305ffdbc16")
-		)
-		(instances
-			(project ""
-				(path "/089184b8-f600-4584-b3f1-b59eb16eefc1/6eb5fc8d-8b20-48b4-b65b-6d065ff48b2f"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 170.18 96.52 0)
 		(unit 1)
@@ -8360,7 +8083,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 46.99 0)
+		(at 176.53 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8369,7 +8092,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5a246d5-eba9-40d6-bb33-99923ffc8345")
 		(property "Reference" "C6"
-			(at 195.58 45.7199 0)
+			(at 180.34 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8101,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 195.58 48.2599 0)
+			(at 180.34 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8110,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 192.7352 50.8 0)
+			(at 177.4952 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,7 +8119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 46.99 0)
+			(at 176.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +8128,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 46.99 0)
+			(at 176.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

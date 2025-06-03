@@ -1,4 +1,4 @@
-24745745255181965
+24749250202494405
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -41,6 +41,13 @@ DMX-26S
 0
 4
 4
+Baja_Library
+DTM1512PA
+DTM15-12PA-3
+Connector
+0
+18
+18
 Baja_Library
 ESP32-WROOM-32D-NO-HOLES
 2.4 GHz Wi-Fi and Bluetooth module, https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
@@ -188,6 +195,13 @@ Integrated Circuit
 0
 48
 48
+Baja_Library
+USB-MICRO
+Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)
+Micro B USB SMD
+0
+9
+6
 Baja_Library
 WarningSign
 
